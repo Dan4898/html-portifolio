@@ -1,0 +1,111 @@
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: #0A192F;
+    color: #EAEAEA; /* Cor do texto geral */
+    padding: 0;
+    margin: 0;
+}
+
+.headline {
+    color: #00FF41 !important;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 255, 65, 0.7); /* Sombra neon */
+}
+
+.paragraph {
+    color: #EAEAEA;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.imagem {
+    height: 200px;
+    width: 200px; /* Assegura que a imagem seja perfeitamente redonda */
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 4px solid #00FF41; /* Borda neon verde */
+    box-shadow: 0 0 15px #00FF41; /* Efeito de brilho */
+    transition: transform 0.3s ease;
+}
+
+.imagem:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.presentation {
+    text-align: justify;
+    font-size: 1.1rem;
+    color: #EAEAEA; /* Garantindo que o texto seja claro */
+    background-color: rgba(10, 25, 47, 0.7); /* Fundo escuro com opacidade para dar contraste */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.3); /* Efeito de sombra suave no fundo */
+    backdrop-filter: blur(5px); /* Desfoque sutil no fundo para dar mais foco no texto */
+}
+
+.presentation h1 {
+    font-size: 2rem;
+    color: #00FF41;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 255, 65, 0.7); /* Sombra no título */
+}
+
+.presentation p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.competences {
+    background-color: #0A192F; /* Fundo escuro para contraste */
+    padding: 50px 0;
+}
+
+.skills {
+    color: #00FF41;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 5px rgba(0, 255, 65, 0.5); /* Efeito de sombra suave */
+    text-align: center;
+}
+
+#competences .row {
+    justify-content: center;
+    gap: 30px; /* Espaçamento entre as colunas */
+}
+
+#competences .col {
+    background: linear-gradient(45deg, rgba(0, 255, 65, 0.3), rgba(0, 255, 65, 0.1));
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.4);
+    transition: transform 0.3s ease;
+}
+
+#competences .col:hover {
+    transform: translateY(-10px); /* Efeito de levitação ao passar o mouse */
+}
+
+#footer {
+    background-color: #0A192F;
+    padding: 30px 0;
+    border-top: 1px solid #00FF41; /* Borda superior neon */
+}
+
+#footer .nav-link {
+    color: #EAEAEA !important;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#footer .nav-link:hover {
+    color: #00FF41 !important;
+    transform: translateY(-5px);
+}
+
+#footer p {
+    color: #EAEAEA !important;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
